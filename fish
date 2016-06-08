@@ -13,7 +13,7 @@ Do the exact same for the Non-ASCII Font setting as well.
 ### Install OMF
 ### https://github.com/oh-my-fish/oh-my-fish
 curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
-omf install agnoster or omf install shellder
+omf install agnoster|shellder|bobthefish
 
 echo "/usr/local/bin/fish" >> /etc/shells
 chsh -s /usr/local/bin/fish
