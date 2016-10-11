@@ -20,7 +20,7 @@
      > ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
 11. Restart iTerm2.
 
-Reference Links :- 
+## Reference Links :- 
 
 1. https://gist.github.com/kevin-smets/8568070
 
