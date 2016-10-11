@@ -21,6 +21,7 @@
 11. Restart iTerm2.
 
 Reference Links :- 
+
 1. https://gist.github.com/kevin-smets/8568070
 
 2. https://github.com/bhilburn/powerlevel9k
