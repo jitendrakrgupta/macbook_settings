@@ -27,3 +27,5 @@
 2. https://github.com/bhilburn/powerlevel9k
 
 3. https://computers.tutsplus.com/tutorials/getting-spiffy-with-powerline--cms-20740
+
+4. http://commandlinepoweruser.com
