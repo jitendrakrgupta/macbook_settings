@@ -8,5 +8,7 @@
    Do the exact same for the Non-ASCII Font setting as well.
 8. curl -L http://install.ohmyz.sh | sh
 9. git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-10. vim ~/.zshrc -> add "plugins=(git zsh-autosuggestions)"
+10. vim ~/.zshrc
+    - edit "plugins=(git zsh-autosuggestions)"
+    - at the bottom,add "source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh"
 11. Restart iTerm2.
