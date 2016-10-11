@@ -12,3 +12,7 @@
     - edit "plugins=(git zsh-autosuggestions)"
     - at the bottom,add "source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh"
 11. Restart iTerm2.
+
+Reference Links - 
+1. https://gist.github.com/kevin-smets/8568070
+2. https://github.com/bhilburn/powerlevel9k
