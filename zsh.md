@@ -2,7 +2,7 @@
 
 1. ```brew install python3-pip```
 2. ```sudo pip3 install git+git://github.com/Lokaltog/powerline```
-3. ```pip3 show powerline-status```
+3. Note down the powerline-status Location from - ```pip3 show powerline-status```
 4. ```git clone https://github.com/powerline/fonts.git```
 5. Once you download the font, change the name from Inconsolata for Powerline.otf to InconsolataPowerline.otf.FontBook will not open it correctly otherwise.
 6. After changing the name, double click it to open and install into the system.
@@ -15,7 +15,7 @@
 10. ```vim ~/.zshrc```
     - edit "plugins=(git zsh-autosuggestions)"
     - at the bottom,add 
-     > ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
+     > powerline-status location from step3 above - ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
 
      > ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
 11. Restart iTerm2.
