@@ -1,4 +1,4 @@
-1.# ZSH with Powerline on MacOS
+# ZSH with Powerline on MacOS
 
 1. ```brew install python3-pip```
 2. ```sudo pip3 install git+git://github.com/Lokaltog/powerline```
