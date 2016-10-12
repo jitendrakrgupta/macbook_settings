@@ -4,7 +4,7 @@
 2. ```sudo pip3 install git+git://github.com/Lokaltog/powerline```
 3. Note down the powerline-status Location from - ```pip3 show powerline-status```
 4. ```git clone https://github.com/powerline/fonts.git```
-5. Once you download the font, change the name from Inconsolata for Powerline.otf to InconsolataPowerline.otf.FontBook will not open it correctly otherwise.
+5. Once you download the font, change the name from "Inconsolata for Powerline.otf" to InconsolataPowerline.otf.FontBook will not open it correctly otherwise.
 6. After changing the name, double click it to open and install into the system.
 7. For iTerm2, open the Preferences dialog, select Profiles, select Text, and select Change Font for the Regular Font to set the Inconsolata for Powerline font and save.
    Do the exact same for the Non-ASCII Font setting as well.
