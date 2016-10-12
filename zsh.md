@@ -9,16 +9,17 @@
 7. For iTerm2, open the Preferences dialog, select Profiles, select Text, and select Change Font for the Regular Font to set the Inconsolata for Powerline font and save.
    Do the exact same for the Non-ASCII Font setting as well.
 8. ```curl -L http://install.ohmyz.sh | sh```
-9. ```git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions```
-10. Upgrade xcode to 8.*
-11. ```brew install zsh-syntax-highlighting```
-10. ```vim ~/.zshrc```
+9. Restart iterm.
+10. ```git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions```
+11. Upgrade xcode to 8.*
+12. ```brew install zsh-syntax-highlighting```
+13. ```vim ~/.zshrc```
     - edit "plugins=(git zsh-autosuggestions)"
     - at the bottom,add 
      > powerline-status location from step3 above - ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
 
      > ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
-11. Restart iTerm2.
+14. Restart iTerm2.
 
 ## Reference Links :- 
 
