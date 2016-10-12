@@ -14,9 +14,9 @@
 11. Upgrade xcode to 8.*
 12. ```brew install zsh-syntax-highlighting```
 13. ```vim ~/.zshrc```
-    - At the top add - 
-    > ```export LC_ALL=en_US.UTF-8```
-    > ```export LANG=en_US.UTF-8``` 
+    - At the top,add
+      > ```export LC_ALL=en_US.UTF-8```
+      > ```export LANG=en_US.UTF-8``` 
     - edit "plugins=(git zsh-autosuggestions)"
     - at the bottom,add 
      > powerline-status location from step3 above - ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
