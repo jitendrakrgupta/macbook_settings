@@ -22,7 +22,18 @@
      > powerline-status location from step3 above - ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
 
      > ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
-14. Restart iTerm2.
+14. To enable "option <-" to move one word backwards and "option ->" to move one word forward in iterm :-
+   - iterm2 -> Profiles ->Keys-> select both left and right option key acts as "+Esc".
+   - Add new key mappings :-
+   - "Keyboard shortcut" : option <-
+   - Action : Send Escape Sequence
+   - Esc+ : b
+   
+   - Add another new key mappings :-
+   - "Keyboard shortcut" : option ->
+   - Action : Send Escape Sequence
+   - Esc+ : f
+15. Restart iTerm2.
 
 ## Reference Links :- 
 
