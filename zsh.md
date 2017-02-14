@@ -44,3 +44,7 @@
 3. https://computers.tutsplus.com/tutorials/getting-spiffy-with-powerline--cms-20740
 
 4. http://commandlinepoweruser.com
+
+## ZSH feautures :-
+
+1. http://code.joejag.com/2014/why-zsh.html
