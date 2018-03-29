@@ -1,6 +1,6 @@
 # ZSH with Powerline on MacOS
 
-1. ```brew install python3 python3-pip```
+1. ```brew install python```
 2. ```sudo pip3 install git+git://github.com/Lokaltog/powerline```
 3. Note down the powerline-status Location from - ```pip3 show powerline-status```
 4. ```git clone https://github.com/powerline/fonts.git```
