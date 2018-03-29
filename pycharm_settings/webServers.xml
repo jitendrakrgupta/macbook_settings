@@ -1,7 +1,0 @@
-<application>
-  <component name="WebServers">
-    <sftpAdvancedGlobalOptions>
-      <SftpAdvancedOptions />
-    </sftpAdvancedGlobalOptions>
-  </component>
-</application>
