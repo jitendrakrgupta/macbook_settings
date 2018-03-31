@@ -3,6 +3,9 @@
 1. ```brew install tmux```
 2. cat ~/.tmux.conf
 ```bash
+# Enable mouse support for scrolling,resize/select pane/window
+set -g mouse on
+
 # List of plugins
 set -g @plugin 'arcticicestudio/nord-tmux'
 set -g @plugin 'tmux-plugins/tpm'
@@ -18,3 +21,4 @@ set -g @plugin 'tmux-plugins/tmux-continuum'
 # Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
 run '~/.tmux/plugins/tpm/tpm'
 ```
+3. tmux source-file ~/.tmux.conf
