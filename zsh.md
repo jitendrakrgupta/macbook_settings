@@ -34,6 +34,12 @@
    - Action : Send Escape Sequence
    - Esc+ : f
 15. Restart iTerm2.
+16. Install material-design-colors theme :-
+    - ```$ cd Downloads```
+    - ```$ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors```
+    - Go to iTerm2 > Preferences > Profiles > Colors Tab > Click Color Presets… at the bottom right
+    - Click Import…Select the material-design-colors.itermcolors file
+    - Select the material-design-colors from Load Presets…
 
 ## Reference Links :- 
 
