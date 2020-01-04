@@ -17,12 +17,20 @@
     - At the top,add
       > ```export LC_ALL=en_US.UTF-8```
       > ```export LANG=en_US.UTF-8``` 
-    - edit "plugins=(git zsh-autosuggestions)"
+      > ```export KUBECONFIG=$KUBECONFIG:~/.kube/config-alt```
+    - edit "plugins=(git zsh-autosuggestions zsh-completions)"
+    - Add ```source $ZSH/oh-my-zsh.sh```
+```source <(kubectl completion zsh)```
+```autoload -U compinit && compinit```
     - at the bottom,add 
      > powerline-status location from step3 above - ```source /usr/local/lib/python3.4/site-packages/powerline/bindings/zsh/powerline.zsh```
 
      > ```source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh```
-14. To enable "option <-" to move one word backwards and "option ->" to move one word forward in iterm :-
+14. Change zsh theme to show kubernetes context in the prompt
+      > ```git clone https://github.com/RobertKozak/fluent-git.git ~/Downloads```
+      > ```cp ~/Downloads/fluent-git-master/fluent-git.zsh-theme ~/.oh-my-zsh/themes```
+      > ```ZSH_THEME="fluent-git"```
+15. To enable "option <-" to move one word backwards and "option ->" to move one word forward in iterm :-
    - iterm2 -> Profiles ->Keys-> select both left and right option key acts as "+Esc".
    - Add new key mappings :-
    - "Keyboard shortcut" : option <-
@@ -33,8 +41,8 @@
    - "Keyboard shortcut" : option ->
    - Action : Send Escape Sequence
    - Esc+ : f
-15. Restart iTerm2.
-16. Install material-design-colors theme :-
+16. Restart iTerm2.
+17. Install material-design-colors theme :-
     - ```$ cd Downloads```
     - ```$ curl -O https://raw.githubusercontent.com/MartinSeeler/iterm2-material-design/master/material-design-colors.itermcolors```
     - Go to iTerm2 > Preferences > Profiles > Colors Tab > Click Color Presets… at the bottom right
@@ -54,3 +62,4 @@
 ## ZSH feautures :-
 
 1. http://code.joejag.com/2014/why-zsh.html
+2. https://github.com/RobertKozak/fluent-git
