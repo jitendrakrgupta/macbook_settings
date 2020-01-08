@@ -11,6 +11,7 @@
 8. ```curl -L http://install.ohmyz.sh | sh```
 9. Restart iterm.
 10. ```git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions```
+    ```git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions```
 11. Upgrade xcode to 8.*
 12. ```brew install zsh-syntax-highlighting```
 13. ```vim ~/.zshrc```
